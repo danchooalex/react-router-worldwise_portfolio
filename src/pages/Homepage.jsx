@@ -6,8 +6,6 @@ function Homepage() {
     <div>
       <PageNav />
       <h1>WorldWise </h1>
-
-      <Link to="/pricing">Pricing</Link>
     </div>
   );
 }
