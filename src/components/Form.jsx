@@ -26,20 +26,25 @@ function Form() {
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
 
-  useEffect(function () {
-    async function fetchCityData() {
-      try {
-        setIsLoadingGeocoding(true);
-        const res = await fetch(`${BASE_URL}?latitude=${lat}&longitude=${lng}`);
-        const data = await res.json();
-        console.log(data);
-      } catch (err) {
-      } finally {
-        setIsLoadingGeocoding(false);
+  useEffect(
+    function () {
+      async function fetchCityData() {
+        try {
+          setIsLoadingGeocoding(true);
+          const res = await fetch(
+            `${BASE_URL}?latitude=${lat}&longitude=${lng}`
+          );
+          const data = await res.json();
+          console.log(data);
+        } catch (err) {
+        } finally {
+          setIsLoadingGeocoding(false);
+        }
       }
-    }
-    fetchCityData();
-  }, []);
+      fetchCityData();
+    },
+    [lat, lng]
+  );
 
   return (
     <form className={styles.form}>

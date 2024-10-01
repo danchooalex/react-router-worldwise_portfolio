@@ -7,3 +7,4 @@ export function useUrlPosition() {
 
   return [lat, lng];
 }
+export default useUrlPosition;
