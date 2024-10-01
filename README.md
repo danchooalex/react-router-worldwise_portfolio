@@ -1,3 +1,6 @@
+Please run : 1. npm run server /to run the fake api 2. npm run dev
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
