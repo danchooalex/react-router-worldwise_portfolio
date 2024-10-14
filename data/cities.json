@@ -1,72 +1,14 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
+      "id": "3bf8",
       "cityName": "Madrid",
-      "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "date": "2024-10-14T17:19:09.649Z",
+      "notes": "Awsome, city!",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "5ede",
-      "cityName": "Belgrade",
-      "emoji": "🇷🇸",
-      "date": "2024-10-14T12:03:19.932Z",
-      "notes": "",
-      "position": {
-        "lat": "44.81496716213563",
-        "lng": "20.45928955078125"
-      }
-    },
-    {
-      "id": "fb02",
-      "cityName": "Belgrade",
-      "emoji": "🇷🇸",
-      "date": "2024-10-14T12:03:19.932Z",
-      "notes": "",
-      "position": {
-        "lat": "44.81496716213563",
-        "lng": "20.45928955078125"
-      }
-    },
-    {
-      "id": "9c4e",
-      "cityName": "Gibraltar",
-      "emoji": "🇬🇮",
-      "date": "2024-10-14T12:11:49.890Z",
-      "notes": "ssddssas",
-      "position": {
-        "lat": "36.14231087352999",
-        "lng": "-5.344848632812501"
+        "lat": "40.41558722527384",
+        "lng": "-3.7023925781250004"
       }
     }
   ]
