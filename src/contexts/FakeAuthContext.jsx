@@ -26,7 +26,7 @@ const FAKE_USER = {
 };
 
 function AuthProvider({ children }) {
-  const [{ user, isAuthenticated, dispatch }] = useReducer(
+  const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
     initialState
   );
@@ -41,14 +41,7 @@ function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider
-      value={{
-        user,
-        isAuthenticated,
-        login,
-        logout,
-      }}
-    >
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
