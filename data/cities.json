@@ -1,14 +1,58 @@
 {
   "cities": [
     {
-      "id": "2b09",
-      "cityName": "Riofrio del Llano",
+      "id": "3b32",
+      "cityName": "Madrid",
       "emoji": "🇪🇸",
-      "date": "2024-10-16T09:30:57.638Z",
+      "date": "2024-10-17T10:07:09.701Z",
+      "notes": "asgdfhjkhhkfgd aesf  gzf d",
+      "position": {
+        "lat": "40.413496049701955",
+        "lng": "-3.6474609375000004"
+      }
+    },
+    {
+      "id": "8300",
+      "cityName": "Sant Julia de Loria",
+      "emoji": "🇦🇩",
+      "date": "2024-10-17T10:09:21.413Z",
+      "notes": "dragad ",
+      "position": {
+        "lat": "42.45588764197166",
+        "lng": "1.5380859375000002"
+      }
+    },
+    {
+      "id": "9b4b",
+      "cityName": "Helechosa de los Montes",
+      "emoji": "🇪🇸",
+      "date": "2024-10-17T10:10:04.119Z",
       "notes": "",
       "position": {
-        "lat": "41.11246878918088",
-        "lng": "-2.7685546875000004"
+        "lat": "39.33429742980725",
+        "lng": "-4.812011718750001"
+      }
+    },
+    {
+      "id": "5874",
+      "cityName": "Moscow",
+      "emoji": "🇷🇺",
+      "date": "2024-10-17T10:10:42.548Z",
+      "notes": "asdasd",
+      "position": {
+        "lat": "55.727110085045986",
+        "lng": "37.74902343750001"
+      }
+    },
+    {
+      "id": "12be",
+      "cityName": "Ankara",
+      "emoji": "🇹🇷",
+      "date": "2024-10-17T10:15:56.932Z",
+      "notes": "123456540",
+      "position": {
+        "lat": "39.8928799002948",
+        "lng": "32.87109375000001"
       }
     }
   ]

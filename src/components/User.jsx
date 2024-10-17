@@ -9,7 +9,7 @@ function User() {
   function handleClick(e) {
     e.preventDefault();
     logout();
-    navigate("/", { replace: true });
+    navigate("/");
   }
 
   return (
